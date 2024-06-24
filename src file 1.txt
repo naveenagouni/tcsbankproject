@@ -1,0 +1,51 @@
+package Collections.Arraylist;
+
+import java.util.ArrayList;
+import java.util.Collections;
+
+public class Amazon {
+
+	public static void main(String[] args) {
+		ArrayList<String> a1=new ArrayList<>();
+		a1.add("sita");
+		a1.add("usha");
+		a1.add("siri");
+		a1.add("Naveena");
+		a1.add("manasa");
+		a1.add("nani");
+		a1.add("abhinav");
+		a1.add("Naveena");
+		a1.add("vamshika");
+		a1.add("madhu");
+		System.out.println(a1.size());
+		System.out.println(a1.toString());
+		a1.add("siri");
+		a1.add("bala");
+		System.out.println(a1);
+		a1.remove(2);
+		a1.remove(3);
+		System.out.println("After removing:"+a1);
+		a1.set(0,"harsha");
+		a1.set(1,"banvi");
+		System.out.println(a1);
+		System.out.println(a1.get(9));
+		System.out.println(a1.contains("vamshika"));
+		Collections.sort(a1);
+		System.out.println("sorted in increasing order:"+a1);
+		ArrayList<Integer> a2=new ArrayList<>();
+		a2.add(12231);
+		a2.add(45673);
+		a2.add(23331);
+		a2.add(16755);
+		a2.add(78986);
+		a2.add(86432);
+		a2.add(12562);
+		a2.add(12001);
+		a2.add(18621);
+		a2.add(11131);
+		System.out.println("customers-Id's");
+		for(int i=0;i<10;i++)
+		{
+			System.out.println(a1.get(i)+"-"+a2.get(i));
+		}
+	}
