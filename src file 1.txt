@@ -7,8 +7,8 @@ public class Amazon {
 
 	public static void main(String[] args) {
 		ArrayList<String> a1=new ArrayList<>();
-		a1.add("sita");
-		a1.add("usha");
+		a1.add("Naveena gouni ");
+		a1.add("Naveena reddy");
 		a1.add("siri");
 		a1.add("Naveena");
 		a1.add("manasa");
