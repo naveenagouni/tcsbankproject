@@ -10,6 +10,9 @@ public class Amazon {
 		a1.add("Naveena reddy");
 		a1.add("siri");
 		a1.add("Naveena");
+		a1.add("Hi Naveena");
+		a1.add("okok");
+		a1.add("Hihi ");
 		a1.add("manasa");
 		a1.add("nani");
 		a1.add("abhinav");
